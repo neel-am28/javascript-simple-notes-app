@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    background: #04A1BF!important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.noteCard{
+    /* width: 45%; */
+    height: 8rem!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#logout{
+    margin-top: -16px;
+}
+.noteCard, #addBtn, .updateButn, #logout{
+    background:  #025F70!important;
+    transition: all 0.5s ease;
+    position: relative;
+}
+.noteCard:hover, #addBtn:hover, .updateButn:hover, #logout:hover{
+    transform: scale(1.02);
+    box-shadow: 2px 1px 26px 0px rgba(0,0,0,0.75);
+}
+.btns {
+    position: absolute;
+    border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color:  #025F70;
+    background-color: white;
+    font-size: 18px;
+	transition: all 0.75s ease;
+	font-weight: normal;
+}
+.btns:hover{
+	background-color: #02798F;
+	color: #FFCD5D;
+}
+
+.stickit{
+    opacity: 0.5;
+}
+.delete{
+    top: 0.5rem;
+    right: 1rem;
+}
+.edits{
+    top: 0.5rem;
+    right: 4rem;
+}
+.search::placeholder{
+    font-size: 1.1rem;
+}
+.sh{
+    box-shadow: 2px 1px 26px 0px rgba(0,0,0,0.75);
+    outline: none;
+    
+}
+#openModal{
+    padding: 40px;
+}
+.cross{
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    font-size: 2rem!important;
+}
